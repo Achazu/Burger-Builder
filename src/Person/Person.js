@@ -2,6 +2,7 @@ import React from 'react';
 import './Person.css';
 
 const Person = (props) => {
+	
 	return (
 		<div className='Person'>
 			<p onClick={props.click}>My name is {props.name} and I am {Math.floor(Math.random()*(10-1+1)+1)}. My fav number is {props.num}</p>	
@@ -13,4 +14,4 @@ const Person = (props) => {
 	)
 }
 
-export default Person
+export default Person;
